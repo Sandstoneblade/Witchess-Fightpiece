@@ -31,12 +31,12 @@ else if (target == "queen")
 }
 else if (target == "witch")
 {
-	abort["Hell no.  Do that yourself."];
+	abort("Hell no.  Do that yourself.");
 	count = 0;
 }
 else
 {
-	abort["Sorry, I didn't know what to target. Lowercase pieces only.  Aborting."];
+	abort("Sorry, I didn't know what to target. Lowercase pieces only.  Aborting.");
 	count = 0;
 }
 
